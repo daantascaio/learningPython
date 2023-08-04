@@ -1,0 +1,49 @@
+    Calculadora simples: Crie uma calculadora que permita ao usuário realizar operações básicas de adição, subtração, multiplicação e divisão.
+
+
+
+
+    Conversor de unidades: Desenvolva um programa que converta valores entre diferentes unidades, como Celsius para Fahrenheit, metros para pés, quilogramas para libras, etc.
+
+
+
+
+    Lista de tarefas (To-Do list): Crie um aplicativo para gerenciar tarefas, onde o usuário possa adicionar, visualizar e marcar tarefas como concluídas.
+
+
+
+
+    Jogo de adivinhação: Implemente um jogo onde o computador escolhe um número aleatório e o jogador deve adivinhar qual é esse número.
+
+
+
+
+    Análise de texto: Crie um programa que leia um arquivo de texto e conte o número de palavras, linhas, caracteres e frequência de palavras específicas.
+
+
+
+
+    Gerador de senhas: Desenvolva um gerador de senhas que crie senhas fortes com base em critérios definidos pelo usuário.
+
+
+
+
+    Simulador de dados: Faça um programa que simule o lançamento de dados e permita ao usuário jogar quantas vezes quiser.
+
+
+
+
+    Agenda de contatos: Crie uma agenda de contatos simples, onde o usuário possa adicionar, editar e visualizar informações de contato.
+
+
+
+
+    Jogo da forca: Implemente o clássico jogo da forca, onde o jogador tenta adivinhar uma palavra desconhecida letra por letra.
+
+
+
+
+    Web Scraper: Construa um programa que faça a raspagem de informações de um site específico e exiba os dados relevantes para o usuário.
+
+
+    
