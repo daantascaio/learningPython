@@ -4,9 +4,9 @@ Calculadora simples: Crie uma calculadora que permita ao usuário realizar opera
 
 """
 import os
-# pedir para o usuário escolher qual opeção ele quer fazer if + elif - elif * elif /
+# pedir para o usuário escolher qual opção ele quer fazer if + elif - elif * elif /
 # tratar o dado recebido pelo usuário
-# input usuário número da direita, lembrando ele que a ordem de digitação do número pode afetar o resultado do calculo
+# input usuário número da direita 
 # input usuario número da esquerda
 # tratar o input dos números
 # fazer a operação e exibir o resultado
@@ -78,13 +78,18 @@ def recebe_numero_esquerdo():
 
 
 while True:
-      iniciar_sair_calculadora = input('Digite [i] para iniciar: ')
+      iniciar_calculadora = input('Digite [i] para iniciar ou [s] para sair: ')
 
-      if iniciar_sair_calculadora.strip().lower() == 'i':
+      if iniciar_calculadora.strip().lower() == 'i':
 
             os.system('cls')
             print('Carregando...🧠\n \n')
             print(round(realiza_conta(recebe_operador(), recebe_numero_direito(), recebe_numero_esquerdo()), 2))
+
+      elif iniciar_calculadora.strip().lower() == 's':
+           os.system('cls')
+           print('Até amanhã meio dia!')
+           break
 
       else:
             print('Digite apenas a letra dentro de []!')
