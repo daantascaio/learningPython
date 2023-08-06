@@ -12,6 +12,8 @@ import os
 # fazer a operação e exibir o resultado
 # exibir um menu para que o usuário selecione qual operação fazer ou se ele deseja encerrar a calculadora 
 
+# CORRIGIR O ERRO ZeroDivisor
+
 print("""\t
        
       |-------------------------|
