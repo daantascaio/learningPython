@@ -40,12 +40,11 @@ def realiza_conta(operador, numero_direito, numero_esquerdo):
 def recebe_operador():
       operadores_permitidos = ['-', '+', '*', '/']
 
-      os.system('cls')
-
       while True:
             operador = input('Digite [+] para somar, [-] para subtrair, [*] para multiplicar, [/] para dividir: ')
 
             if len(operador) == 1 and operador in operadores_permitidos:
+                  os.system('cls')
                   return operador
                   
             else:
